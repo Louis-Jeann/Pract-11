@@ -21,13 +21,11 @@ class Program
         Console.Write("Ingrese su altura: ");
         altura = double.Parse(Console.ReadLine());
 
-        Console.WriteLine("\n--- Información ingresada ---");
         Console.WriteLine("Nombre: " + nombre);
         Console.WriteLine("Apellido: " + apellido);
         Console.WriteLine("Edad: " + edad);
         Console.WriteLine("Altura: " + altura);
 
-        Console.WriteLine("\nHola, mi nombre es " + nombre + " " + apellido +
-                          " y tengo " + edad + " años. Mi altura es " + altura + " metros.");
+        Console.WriteLine("Hola, mi nombre es " + nombre + " " + apellido + " y tengo " + edad + " años. Mi altura es " + altura + " metros.");
     }
 }
